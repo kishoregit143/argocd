@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/kishoregit143/argocd.git
     targetRevision: main # Specifies the branch, tag, or commit to sync to
-    path: namespaces
+    path: namespace
   destination:
     server: https://kubernetes.default.svc # Current Cluster
     namespace: argocd
