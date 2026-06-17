@@ -10,7 +10,7 @@ spec:
     targetRevision: main # Specifies the branch, tag, or commit to sync to
     path: namespace
   destination:
-    server: https://kubernetes.default.svc # Current Cluster
+    server: https://kubernetes.default.svc # Current Clusters
     namespace: argocd
   syncPolicy:
     automated:
