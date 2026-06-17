@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: fundweb
+  labels:
+    environment: development
+    project: fundweb
